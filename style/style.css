@@ -1,0 +1,47 @@
+.LOGO {
+    padding-left: 40%   ;
+    height: 100px;
+    width: 300px;
+}
+.LOGO:hover {
+    height: 103px;
+    width: 305px;
+}
+
+.BotonWsp {
+    height: 100%;
+    border: white;
+    border-radius: 10%;
+    background-color: #28DC40;
+    color: white;
+}
+.BotonWsp:hover{
+height: 110%;
+width: 110%;
+}
+
+.nav-item {
+    padding-left: 30%;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 16px;
+}
+
+a.nav-link{
+    color: #080808 !important;
+}
+a.nav-link:focus{
+    color: #FDCF00!important;
+}
+a.nav-link:hover{
+   background-color: #FDCF00!important;
+   color: black !important;
+}
+nav{
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+}
+.carousel-item{
+    position: relative !important;
+height: 700px !important;
+}
