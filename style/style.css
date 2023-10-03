@@ -41,11 +41,7 @@ a.nav-link:hover{
    background-color: #FDCF00!important;
    color: black !important;
 }
-nav{
-    position: fixed;
-    top: 0;
-    z-index: 1000;
-}
+
 .carousel-item{
     position: relative !important;
 height: 100% !important;
