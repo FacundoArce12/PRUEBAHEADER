@@ -7,7 +7,12 @@
     height: 103px;
     width: 305px;
 }
-
+.navbar{
+    position:fixed;
+    width:100%;
+    z-index: 1000000;
+    top:0;
+}
 .BotonWsp {
     height: 100%;
     border: white;
@@ -43,5 +48,8 @@ nav{
 }
 .carousel-item{
     position: relative !important;
-height: 700px !important;
+height: 100% !important;
+}
+img{
+    height: 100%
 }
